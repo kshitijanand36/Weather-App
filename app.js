@@ -19,7 +19,7 @@ app.get("/" , function(req , res){
 
     var city = req.body.city_name;
 
-    const api_key = "8c0c810754663d25f71564090b299121";
+    const api_key = "hidden";
     const unit = "metric";
     // const city = "delhi";
     const url = "https://api.openweathermap.org/data/2.5/weather?appid=" + api_key + "&q=" + city + " &units="+ unit;
